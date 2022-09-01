@@ -1,0 +1,188 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins' ,'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #562482;
+    --cor2: #422399;
+    --cor3: #21228F;
+    --cor4: #F4D35E;
+    --cor5: #E6B917;
+    --cor6: #3B1D58;
+    --fontpadrao: Arial, Helvetica, sans-serif;
+    --fontdifere: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+header > h1{
+    text-align: center;
+    margin: 0px;
+    font-weight: bolder;
+    color: var(--cor6);
+    font-family: var(--fontdifere);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+    font-size: 3.5em;
+    background-image: linear-gradient(to top, var(--cor6), var(--cor1) );
+    background-color: var(--cor6);
+    color: white;
+    
+    
+}
+
+header > nav{
+    background-color: var(--cor6);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+    max-width: 100%;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    text-align: justify;
+    font-family: var(--fontdifere);
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+    background-color: var(--cor6);
+    margin: 0.2%;
+    padding: 2px;
+    
+}
+header> nav{
+    text-align: justify;
+    padding: 10px;
+    margin: 0px;
+}
+header > nav > a:hover{
+    color: var(--cor4);
+    text-decoration: none;
+}
+body{
+    background-color: var(--cor4);
+}
+main{
+   background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+main h2{
+    font-family: var(--fontpadrao);
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
+    color: var(--cor6);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+    padding-top: 10px;
+
+}
+main p{
+    font-family: var(--fontpadrao);
+    font-size: 1em;
+    font-weight: normal;
+    text-indent: 30px;
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
+    line-height: 1.2em;
+
+}
+h2{
+    font-family:var(--fontpadrao);
+    font-weight: Bolder;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    background-color: var(--cor6);
+    text-align: center;
+    color: white;
+    padding: 3px;
+    margin: 0px;
+    border-radius: 5px;
+}
+footer > p{
+    margin: 0px;
+}
+
+div{
+    text-align: center;
+}
+main > p{
+    text-indent: 10px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+
+}
+
+
+main img{
+    margin: 10px;
+    padding: 5px;
+}
+
+.noticiarecorde{
+     color: white;
+     background-color: var(--cor6);
+     background-image: linear-gradient(to right, black, var(--cor6));
+     border-radius: 10px;
+     padding: 10px;
+     font-size: 2em;
+}
+.noticiarecorde1{
+    font-size: 3.5em;
+    background-color: var(--cor6);
+     background-image: linear-gradient(to right, black, var(--cor6));
+     color: white;
+     border-radius: 10px;
+}
+div.video{
+    position: relative;
+    height: 0px;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-bottom: 5px;
+    padding-bottom: 59%;
+    max-width: 1200px;
+    background-color: var(--cor6);
+    margin: auto;
+    border-radius: 10px;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.h2video{
+    font-style: italic;
+    font-weight: bolder;
+}
