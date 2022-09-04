@@ -22,6 +22,14 @@
     --fontdifere: 'Roboto', sans-serif;
 
 }
+body{
+    background-image: url('imagens/lebron.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+}
 
 header{
     background-color: white;
@@ -62,8 +70,7 @@ header > nav > a{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
     background-color: var(--cor6);
     margin: 0.2%;
-    padding: 2px;
-    
+    padding: 2px;   
 }
 header> nav{
     text-align: justify;
